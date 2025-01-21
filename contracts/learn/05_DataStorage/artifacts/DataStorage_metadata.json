@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "_x",
+						"type": "uint256[]"
+					}
+				],
+				"name": "fCalldata",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "fMemory",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "fStorage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/learn/05_DataStorage/DataStorage.sol": "DataStorage"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/learn/05_DataStorage/DataStorage.sol": {
+			"keccak256": "0xe098160ae014241933556dd3370932e6834800d4ec1094a798c65f67bff678b3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5d1e8ef2b0fde45b38836e5d330c6de9be7c3e6656eee6e399635164edd33a3b",
+				"dweb:/ipfs/QmbKyzMzU8kSBChUWK5SZQ9ydEHQG4gAY9Ez2atuvK3nBJ"
+			]
+		}
+	},
+	"version": 1
+}

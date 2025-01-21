@@ -7,20 +7,28 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "arrayPush",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
 				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "owner",
+				"name": "initArray",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "uint256[]",
 						"name": "",
-						"type": "address"
+						"type": "uint256[]"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -37,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"demolistday2.sol": "Ownable"
+			"contracts/learn/06_ArrayAndStruct/ArrayAndStruct.sol": "ArrayTypes"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -51,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"demolistday2.sol": {
-			"keccak256": "0xd21ea431b63b101cb9058ac80b0db2edfefc1efa758bd44cd3af00ed477aeb58",
+		"contracts/learn/06_ArrayAndStruct/ArrayAndStruct.sol": {
+			"keccak256": "0x3144a45b2a3169f52a5cbd05441fb5f98a51f5f3117e2e5d315ab9e2a1e5f4df",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://567b3e5e41aa34f1b5efccf031708f5f1bd21c54008ac539d0085eb7b55924c6",
-				"dweb:/ipfs/QmU8MmjN4LSMUxAJgqBid42tBjfsVLSJi9LP7xTUSJT9Lm"
+				"bzz-raw://3006d3fcecff3ca5dfbfe74c979661a94b1bd5ea6041a9fa10a7ee23e4a36dfd",
+				"dweb:/ipfs/QmcjDeopCJ3rdtNXfe5V5WvVmDmVpysQZL3vGwZ9qdw35q"
 			]
 		}
 	},

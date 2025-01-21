@@ -11,6 +11,19 @@
 				"type": "constructor"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_newOwner",
+						"type": "address"
+					}
+				],
+				"name": "changeOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "owner",
 				"outputs": [
@@ -37,7 +50,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"demolistday2.sol": "Ownable"
+			"contracts/learn/11_Modifier/Owner.sol": "Owner"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -51,12 +64,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"demolistday2.sol": {
-			"keccak256": "0xd21ea431b63b101cb9058ac80b0db2edfefc1efa758bd44cd3af00ed477aeb58",
+		"contracts/learn/11_Modifier/Owner.sol": {
+			"keccak256": "0x94d25c0496abba728835c80aaf54b6e9f020e33255848e8ada42d1c0d08f252b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://567b3e5e41aa34f1b5efccf031708f5f1bd21c54008ac539d0085eb7b55924c6",
-				"dweb:/ipfs/QmU8MmjN4LSMUxAJgqBid42tBjfsVLSJi9LP7xTUSJT9Lm"
+				"bzz-raw://aa9dbba5b1e2cf838717437dfb261df4c8383df24d25c2e7371aeaf8af25fdb9",
+				"dweb:/ipfs/Qmeim7ZiLsNXj6ELo6RtKuBsTM7xNcx4qMVBV9j3x9ciBV"
 			]
 		}
 	},

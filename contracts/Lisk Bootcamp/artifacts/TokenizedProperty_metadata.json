@@ -100,7 +100,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "Withrawal",
+				"name": "Withdrawal",
 				"type": "event"
 			},
 			{
@@ -224,7 +224,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"demolistday2.sol": "TokenizedProperty"
+			"contracts/Lisk Bootcamp/TokenizedProperty.sol": "TokenizedProperty"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -238,12 +238,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"demolistday2.sol": {
-			"keccak256": "0xd21ea431b63b101cb9058ac80b0db2edfefc1efa758bd44cd3af00ed477aeb58",
+		"contracts/Lisk Bootcamp/TokenizedProperty.sol": {
+			"keccak256": "0x92bb2df8ea065adb5ae3a9ad21fd1302a539f5b6475977395471da08c4a4dea6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://567b3e5e41aa34f1b5efccf031708f5f1bd21c54008ac539d0085eb7b55924c6",
-				"dweb:/ipfs/QmU8MmjN4LSMUxAJgqBid42tBjfsVLSJi9LP7xTUSJT9Lm"
+				"bzz-raw://af1ff08fd156f2210f8612fc56737467629b8c34e177325b71922bf960bfacdb",
+				"dweb:/ipfs/QmXp1DTwrUXt1hKKziAEBQUGNRLb8iWgkd4HgCbvXnRE2T"
 			]
 		}
 	},
